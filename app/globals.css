@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000;
+  --foreground: #fff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-publica-sans: var(--font-publica-sans);
+  --font-publica-sans-medium: var(--font-publica-sans-medium);
+  --font-publica-sans-bold: var(--font-publica-sans-bold);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-publica-sans);
+}
