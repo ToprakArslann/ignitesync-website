@@ -1,7 +1,11 @@
+import Hero from "../components/hero";
+import Performance from "../components/performance";
+
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-xl">Home</h1>
+    <main className="flex flex-col justify-center overflow-hidden">
+      <Hero />
+      <Performance />
     </main>
   );
 }

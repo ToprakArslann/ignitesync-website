@@ -11,6 +11,8 @@
   --font-publica-sans: var(--font-publica-sans);
   --font-publica-sans-medium: var(--font-publica-sans-medium);
   --font-publica-sans-bold: var(--font-publica-sans-bold);
+  --font-publica-sans-extra-bold: var(--font-publica-sans-extra-bold);
+  --color-primary: #FF6B00;
 }
 
 body {
