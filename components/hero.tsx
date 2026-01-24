@@ -22,7 +22,7 @@ export default function Hero() {
                         REVENUE
                     </span>
                 </h2>
-                <p className="text-2xl">
+                <p className="text-2xl leading-7">
                     The AI-powered engine that predicts, automates, and closes <br /> deals faster. Stop guessing and start growing with real-time <br /> sales intelligence.
                 </p>
                 <div className="flex flex-row gap-8 items-center">
