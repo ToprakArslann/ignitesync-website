@@ -34,8 +34,8 @@ export default function Hero() {
 
                 </div>
             </div>
-            <div className="absolute right-1/5 -rotate-10 top-0 w-[250px] h-[120vh] bg-primary blur-[120px] rounded-b-full " />
-            <div className="absolute right-0 rotate-25 -bottom-1/2 w-[200px] h-[60vh] bg-primary blur-[120px] " />
+            <div className="absolute right-1/5 -rotate-10 top-0 w-[250px] h-[120vh] bg-primary blur-[120px] rounded-b-full -z-1" />
+            <div className="absolute right-0 rotate-25 -bottom-1/2 w-[200px] h-[60vh] bg-primary blur-[120px] -z-1" />
         </section>
     );
 }

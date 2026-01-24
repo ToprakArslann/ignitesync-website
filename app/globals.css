@@ -13,6 +13,7 @@
   --font-publica-sans-bold: var(--font-publica-sans-bold);
   --font-publica-sans-extra-bold: var(--font-publica-sans-extra-bold);
   --color-primary: #FF6B00;
+  --color-gray: #ACACAC;
 }
 
 body {
