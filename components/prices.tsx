@@ -9,7 +9,7 @@ export default function Prices() {
                 <button className="bg-white text-black p-2 rounded-lg">Annual</button>
                 <button>Monthly</button>
             </div>
-            <div className="flex flex-row gap-5 items-start justify-center">
+            <div className="flex min-[1025]:flex-row flex-col gap-5 items-start justify-center">
                 <div className="flex flex-col w-100 justify-center p-5 gap-5 rounded-2xl backdrop-blur-[3px] [box-shadow:1px_1px_0px_rgba(255,255,255,0.25),-1px_-1px_1px_rgba(255,255,255,0.25)]">
                     <h2 className="text-2xl text-center">Ignite</h2>
                     <div className="flex flex-row items-center justify-center gap-2">

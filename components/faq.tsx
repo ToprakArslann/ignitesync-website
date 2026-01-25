@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function FAQ() {
     const [active, setActive] = useState(0)
     return (
-        <section className="flex flex-col items-center justify-center min-h-screen gap-5">
+        <section className="flex flex-col items-center justify-center min-h-screen gap-5 max-[1025]:pt-200">
             <h2 className="text-2xl">Frequently Asked Questions</h2>
             <div onClick={() => setActive(0)} className={`flex flex-col w-110 ${active === 0 ? "h-38" : "h-15"} transition-all duration-300 overflow-hidden p-5 gap-5 rounded-2xl backdrop-blur-[3px] [box-shadow:1px_1px_0px_rgba(255,255,255,0.25),-1px_-1px_1px_rgba(255,255,255,0.25)]`}>
                 <div className="w-full flex flex-row items-center justify-between">

@@ -3,9 +3,9 @@ import RightChevron from "./ui/right-chevron";
 
 export default function Hero() {
     return (
-        <section className="flex items-center flex-row h-screen w-full px-15 relative">
-            <div className="flex flex-col gap-8">
-                <h2 className="flex flex-col text-[150px] font-publica-sans-extra-bold leading-[0.9] gap-0">
+        <section className="flex items-center max-lg:justify-center flex-row h-screen w-full lg:px-15 relative">
+            <div className="flex flex-col gap-8 origin-center max-lg:scale-50">
+                <h2 className="flex flex-col text-[150px]   font-publica-sans-extra-bold leading-[0.9] gap-0">
                     <span className="w-full h-30 flex flex-row justify-between items-center gap-2" >
                         <span className="flex items-center justify-center w-full h-full ">IGNITE</span>
                         <div className="flex items-center justify-center w-full h-28 -translate-y-3  rounded-full relative overflow-hidden">
@@ -22,7 +22,7 @@ export default function Hero() {
                         REVENUE
                     </span>
                 </h2>
-                <p className="text-2xl leading-7">
+                <p className="text-2xl leading-7 ">
                     The AI-powered engine that predicts, automates, and closes <br /> deals faster. Stop guessing and start growing with real-time <br /> sales intelligence.
                 </p>
                 <div className="flex flex-row gap-8 items-center">
